@@ -1,0 +1,74 @@
+
+Day-1:
+========
+
+		HTML:
+
+website :collection of webpages 
+
+			webpages 
+					
+					1.static		fixed      			EX:login page 
+					2.dynamic 		keep on changing	EX:HOME PAGE
+
+
+	HTML:static
+
+
+	hyper text markup language	
+
+
+		<>	</>
+	predefined
+	
+		tim berners lee
+	
+		1989
+		HTML 1991
+		2.0
+		
+		5.x--2008
+		
+		2014-->W3C
+
+
+		welcome.html
+
+
+		browser -->IE,GC,M,....
+
+
+		browser engine-->DOM TREE-->
+
+
+			GC-->V8
+			IE-->Chakra
+			M--->Spider monkey
+
+
+table,tr,th,td,tbody,thead
+
+INPUT 
+
+
+	<input type="text" name="uname"/>textbox
+
+				password
+				
+				checkbox
+		languages known
+				radio 
+			gender	male  female
+
+				date
+				datetime
+				color
+				number
+				button
+
+
+
+
+
+
+

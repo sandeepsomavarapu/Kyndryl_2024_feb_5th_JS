@@ -10,10 +10,11 @@
                 if(num>0 && num<=100)
                     alert(Math.pow(num,num))
                 else
-                    throw new Error("Invalid Number")
+                    throw new ReferenceError("Invalid Number")
 
-            } catch (error) {
-                alert("caught some error: "+error.message)
+            } catch (e) {
+                alert(e)
+                alert("caught some error: "+e.message)
             }finally{
                 alert("Execution took: "+(Date.now()-start)+"ms")
             }

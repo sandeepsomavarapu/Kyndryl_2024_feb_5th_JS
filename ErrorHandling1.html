@@ -8,12 +8,12 @@
 
             document.write(message+"<br>")
             try {
-
                 document.write(a)
-                
-            } catch (error) {
+            }
+            catch (error) {
+                alert(error)
                 alert("caught some error: "+error.message)
-            }finally{
+            } finally{
                 document.write("execute always for cleanup code<br>")
             }
             

@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            var num=prompt("Enter a positive number between 1 to 100")
+                    var start=Date.now();
+            try {
+                if(num>0 && num<=100)
+                    alert(Math.pow(num,num))
+                else
+                    throw new Error("Invalid Number")
+
+            } catch (error) {
+                alert("caught some error: "+error.message)
+            }finally{
+                alert("Execution took: "+(Date.now()-start)+"ms")
+            }
+            
+            document.write("Remaining lines of code")
+        </script>
+    </body>
+
+</html>

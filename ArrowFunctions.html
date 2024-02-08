@@ -1,0 +1,33 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        function displayDate() {
+            alert("Today's Date: "+new Date());
+        }
+        displayDate()
+        //Anonyoums function
+       var add= function(a,b) {
+            return a+b;
+        }
+       alert(add(12,13,14))
+
+        //Arrow function  =>  ->
+            var add1=(a,b)=>a+b
+            alert(add1(23,24))
+
+            var square=a=>a*a
+            alert(square(12))
+
+            var findlength=name=>{return name.length}
+            alert(findlength("EXCELR"))
+
+            var findlength1=name=>name.length
+            alert(findlength1("hyderabad"))
+    </script>
+
+</body>

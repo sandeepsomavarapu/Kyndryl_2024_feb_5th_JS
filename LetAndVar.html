@@ -1,0 +1,46 @@
+<html>
+<head>
+
+</head>
+<body>
+    <p id="myid">let</p>
+    <p id="myid1">var</p>
+    <script>
+        var x=10
+        {
+            let x=3;//block scope
+            document.getElementById("myid").innerHTML=x  
+        }
+        {
+            document.write(x)
+        }
+        document.getElementById("myid1").innerHTML=x
+  
+       
+// for(let i=0;i<5;i++)//ES6 or ES2015  block scope
+// {
+//     console.log(i)//0,1,2,3,4
+// }
+// //console.log("i value :"+i)//undefined
+// for(var a=0;a<5;a++)        //var is function scope
+// {
+//     console.log(a)//0,1,2,3,4
+// }
+// console.log("a value :"+a)//5
+
+
+// function display(name="EXCELR")
+//         {
+//             alert(name);
+//         }
+//         display("hyderabad")
+//         display()//
+        
+//  let letters=["a","b","c","d","e"];
+//  for(let letter of letters)
+// {
+//     console.log(letter)
+// }
+</script>
+</body>
+</html>
